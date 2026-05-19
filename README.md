@@ -42,8 +42,21 @@ Para rodar este projeto na sua máquina, você precisará de um ambiente que exe
 
 | Menu Principal |
 | :---: |
-| ![Menu das Eleições](image_40d24a.png) |
+| ![Menu das Eleições](fturna/urnai.png) |
 
 ---
 
-Desenvolvido com 💻 por [Seu Nome ou Link do seu LinkedIn].
+# 👨‍💻 Autor
+
+Matheus Araujo da Silva
+
+- Site/Portifólio: https://matheus-araujo.net.br
+- GitHub: https://github.com/matheusaraujo019
+- LinkedIn: https://www.linkedin.com/in/matheus-araujo-da-silva-9a082b388/
+
+---
+
+# 📄 Licença
+
+Este projeto está sob a licença MIT.
+
