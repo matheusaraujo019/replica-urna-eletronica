@@ -1,0 +1,202 @@
+/* Estilos Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Adiciona box-sizing para melhor controle de layout */
+}
+
+body {
+    background-color: #F5F5DC; /* Fundo bege claro */
+    min-width: 1350px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte moderna */
+}
+
+#index {
+    display: flex; /* Ativa o Flexbox */
+    justify-content: space-around; /* Distribui os itens com espaço ao redor */
+    align-items: center; /* Centraliza verticalmente os itens */
+    width: 100%;
+    margin: 20px auto;
+    background: #FFFFFF; /* Branco puro */
+    border-radius: 10px; /* Suaviza a borda */
+    padding: 3%;   
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+.conteudo {
+    padding: 0 4%;   
+}
+
+.interface {   
+    width: auto;
+    margin: 0 auto;
+    height: auto;
+   
+}
+
+.titulo {
+    color: #3C3C3C;  /* Cinza escuro */
+    font-size: 3.5em;
+    padding: 5px;
+    text-align: center;
+}
+
+span {
+    color: #D9A66B; /* Bege suave */
+    display: inline-block;
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+}
+
+/* Formatação index.php */
+#conteiner-form {
+    
+    width: 700px;
+    margin: 50px auto;
+    background: #FFFFFF; /* Branco puro */
+    border-radius: 10px; /* Suaviza a borda */
+    padding: 3% ;   
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra leve */
+
+}
+
+
+
+#conteiner-form h1 {
+    text-transform: uppercase;
+    font-size: 2em;
+    color: #5D5D5D; /* Cinza médio */
+}
+
+input, textarea {
+    padding: 15px; /* Aumenta o padding para conforto */
+    width: 80%;
+    margin: 10px 0; /* Melhora a separação entre os campos */
+    border: 2px solid #D9A66B; /* Bege suave como borda */
+    border-radius: 10px;
+    transition: border-color 0.3s; /* Transição para o foco */
+}
+
+input:focus, textarea:focus {
+    border-color: #AFAF2B; /* Bege mais escuro ao focar */
+}
+
+.alteracao {
+    width: 100px;
+    margin-top: 40px; 
+}
+
+.submit {
+    font-size: 1.2em;
+    width: auto;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: background-color 0.3s, color 0.3s;   
+    padding: 10px 20px; /* Aumenta o tamanho do botão */
+    border: none; /* Remove a borda padrão */
+    background-color: #BAB36D; /* beje claro suave */
+    color: white; /* Texto branco */
+}
+
+.submit:hover {
+    background-color: #A29A4D; /* Beje um pouco mais escuro */
+}
+
+fieldset {
+    border: 1px solid #D9A66B; /* Bege suave */
+    padding: 1em;
+    margin: 1em 0;
+}
+
+label {
+    font-size: 1.5em;
+    float: left;
+    margin-left: 1%;
+    color: #3C3C3C; /* Cinza escuro */
+}
+
+textarea {
+    height: 100px;
+    margin-left: 10px;
+}
+
+/* Formatações gravar.php e consulta.php */
+h1.gravado {
+    text-align: center;
+    padding-bottom: 10px;
+    color: #3C3C3C;  
+    font-size: 3.5em;
+}
+
+.deletar, .voltar, .alterar, .confirmar {
+    width: 100px;  
+    height: auto;
+    margin: 20px auto;
+    font-size: 1.3em;
+    padding: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;    
+    transition: background-color 0.3s, color 0.3s; /* Transição para todos os botões */
+}
+
+.deletar {
+    background-color: #FFCCCB; /* Vermelho claro */
+    color: #3C3C3C; /* Cinza escuro */
+}
+
+.deletar:hover {
+    background-color: #FFB2B2; /* Vermelho mais suave */
+}
+
+.voltar {
+    background-color: #FFE4B5; /* Bege claro */
+    color: #3C3C3C;
+}
+
+.voltar:hover {
+    background-color: #FFD700; /* Dourado suave */
+}
+
+.alterar {
+    background-color: #FFFACD; /* Amarelo claro */
+    color: #3C3C3C;
+}
+
+.alterar:hover {
+    background-color: #FFEFD5; /* Amarelo mais suave */
+}
+
+.confirmar {
+    background-color: #FFDAB9; /* Laranja claro */
+    color: #3C3C3C;
+    width: 60px;  
+}
+
+.confirmar:hover {
+    background-color: #FFC0CB; /* Rosa claro */
+}
+
+.tabela {
+    margin: 100px auto 15px;
+    color: #3C3C3C; /* Cinza escuro */
+    border: 1px solid #D9A66B; /* Bege suave para a tabela */
+}
+
+td {
+    border: 1px solid #D9A66B; /* Bege suave para as células */
+    padding: 20px;
+}
+
+th {
+    background: #D9A66B; /* Bege suave */
+    padding: 20px;
+    color: #3C3C3C; /* Cinza escuro */
+}
+
+tr.databases {
+    text-align: center;
+    font-size: 1.3em;
+}
